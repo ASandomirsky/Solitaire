@@ -273,7 +273,3 @@ def solitaire():
 
 solitaire()
     
-#add showgraph to each playable action in the methods
-#find out how to extrtact button pushed
-#add label widget for instructions
-#add entry widget to indicate how many cards to transfer
