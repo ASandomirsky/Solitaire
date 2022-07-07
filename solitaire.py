@@ -59,7 +59,7 @@ sourcedeck=None
 class Card:
     def __init__(self,suit,value,faceup):
         if not(suit in cardsuits.keys() and value in cardvalues.keys() and faceup in [True,False]):
-            raise SyntaxError("Inappropriate card parameters: "+str(suit)+" "+str(value)+" "+str(face))
+            raise SyntaxError("Inappropriate card parameters: "+str(suit)+" "+str(value)+" "+str(faceup))
         self.suit=suit
         self.value=value
         self.faceup=faceup
