@@ -269,6 +269,7 @@ def solitaire():
     gamedeck.showgraph()
     displaydeck.showgraph()
     window.after(1000,lambda : my_mainloop(finals))
+    #testing out commits in git
     
 
 solitaire()
